@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Login from './components/Login';
 import { SessionProvider } from './context/SessionProvider';
 import { useSession } from './hooks/useSession';
+import './App.css';
 
 const AppContent = () => {
   const { session } = useSession();
